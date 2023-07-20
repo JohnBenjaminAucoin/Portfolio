@@ -119,7 +119,7 @@ const courses = [
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/communications-i/",
     "status":"In Progress",
-    "skills":""
+    "skills":"e"
 
 },
 {
