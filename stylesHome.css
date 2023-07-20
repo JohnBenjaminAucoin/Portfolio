@@ -1,0 +1,36 @@
+:root {
+    --jet : #2C302E;
+    --jet-transparent: #00000065 ;
+    --green: #DFF514;
+    --blue: #0079C0;
+    --white: #F0FFFF;
+    --black: #000000;
+    --row1:7vh ; 
+ --row2: 8vh;
+ 
+}
+
+
+.headerBlank{
+    background-color: var(--black);
+    height: 65.578px;
+    width: 100%;
+    
+}
+
+
+.homenav{
+    border-top-style: solid;
+    border-color: var(--white);
+ }
+ 
+ .homeflxChild{
+ 
+     flex-grow: 1;
+ }
+
+ .nav{
+    
+    font-size: 1.5em;
+    margin-bottom: 0;
+}

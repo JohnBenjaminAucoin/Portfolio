@@ -1,0 +1,49 @@
+:root {
+    --jet : #2C302E;
+    --jet-transparent: #00000065 ;
+    --green: #DFF514;
+    --blue: #0079C0;
+    --white: #F0FFFF;
+    --black: #000000;
+    --row1:7vh ; 
+ --row2: 8vh;
+ --defaultBackground:"/images/defaultSky.png";
+ 
+}
+
+.coursesContainer{
+    background-color: var(--jet-transparent);
+    margin: var(--row2) 11vw;
+    
+    padding: 10.8vh 4.01vw;
+    min-height: 50vh;
+    display: flex;
+    gap: 10px 10px;
+    box-shadow: 0 4px 8px 0.3px var(--jet-transparent) ;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.courseCard{
+    color: var(--white);
+    
+    background-color: #000000;
+    padding: 20px 20px;
+    min-height: 100px;
+    
+    flex-basis: 556.83px;
+    flex-grow: 1;
+}
+
+
+
+.cardLine1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

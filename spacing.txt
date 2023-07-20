@@ -1,0 +1,8 @@
+100vh total
+
+
+header: 7vh
+containerp margin top: 8vh
+container height: 50vh
+container margin bottom:8vh
+footer:7h
