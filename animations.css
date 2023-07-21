@@ -1,11 +1,11 @@
 .backgroundSky{
-    background-image: url("Portfolio/images/defaultSky.png");
+    background-image: url("./images/defaultSky.png");
 }
 
 .backgroundWireframes{
     
     /*change to animation between the two images that triggers when this class is applied*/
-    background-image: url("Portfolio/images/WireframeSky.png");
+    background-image: url("./images/WireframeSky.png");
     animation-name: toWires;
   animation-duration: 0.5s;
   animation-direction: alternate;
@@ -14,7 +14,7 @@
 }
 
 .backgroundReturnToSky{
-    background-image: url("Portfolio/images/defaultSky.png");
+    background-image: url("./images/defaultSky.png");
     animation-name: fromWires;
   animation-duration: 0.5s;
   animation-direction: alternate;
@@ -24,19 +24,19 @@
 
 @keyframes toWires {
     0% {
-        background-image: url("Portfolio/images/defaultSky.png");
+        background-image: url("./images/defaultSky.png");
     }
     100%{
-        background-image: url("Portfolio/images/WireframeSky.png");
+        background-image: url("./images/WireframeSky.png");
     }
 }
 
 @keyframes fromWires {
     0% {
-        background-image: url("Portfolio/images/WireframeSky.png");
+        background-image: url("./images/WireframeSky.png");
     }
     100%{
-        background-image: url("Portfolio/images/defaultSky.png");
+        background-image: url("./images/defaultSky.png");
     }
 }
 
