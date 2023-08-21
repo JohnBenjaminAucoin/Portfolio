@@ -1,20 +1,30 @@
-const projE = document.getElementById("projectsHeader");
+const projE = document.getElementById("projectsNav");
+const contactE = document.getElementById("contactNav");
+const coursesE = document.getElementById("coursesNav");
 const bodyE = document.querySelector("body");
 const containerE = document.querySelector(".container");
 const courseContainerE = document.querySelector(".coursesContainer")
 
-projE.addEventListener("mouseover", (e) =>{ 
-    bodyE.classList.remove("backgroundSky");
-    bodyE.classList.remove("backgroundReturnToSky");
-    bodyE.classList.toggle("backgroundWireframes")
-    console.log("hovered")
-})
 
-projE.addEventListener("mouseout", (e) =>{ 
-    bodyE.classList.add("backgroundReturnToSky");
-    bodyE.classList.toggle("backgroundWireframes");
-    console.log("hovered");
-})
+function hoverEffects(navE, tohover, fromhover){
+    navE.addEventListener("mouseover", (e) =>{ 
+        bodyE.classList = "animationDetails noscroll backgroundSky"
+        bodyE.classList.remove(fromhover);
+        bodyE.classList.toggle(tohover);
+     
+    })
+    
+    navE.addEventListener("mouseout", (e) =>{ 
+        bodyE.classList.add(fromhover);
+        bodyE.classList.toggle(tohover);
+    
+    })
+}
+
+hoverEffects(projE, "backgroundToWireframes", "backgroundFromWireframes");
+hoverEffects(coursesE, "backgroundToSchool", "backgroundFromSchool");
+
+
 
 
 
@@ -22,8 +32,6 @@ function addCourses(){
     console.log(courses);
     
     for (var course of courses){
-
-
 
         const cardE = document.createElement("div");
 
@@ -41,7 +49,8 @@ function addCourses(){
 
         dateE.innerText = course.dateStarted;
         gradeE.innerText = "Grade: " + course.grade;
-        
+        gradeE.setAttribute("title","Grade is out of 4.0")
+
         linkE.innerText = course.name;
         profsE.innerText = "Prof(s): "+ course.prof;
         descE.innerText = course.description;

@@ -25,6 +25,7 @@
 html{
     height: 100%;
 }
+
 body{
     margin: 0px;
     padding: 0px;
@@ -51,17 +52,19 @@ body{
     
     padding: 10.8vh 4.01vw;
     min-height: 50vh;
+    box-shadow: 0 4px 8px 0.3px var(--jet-transparent) ;
+
+}
+
+.flex{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 0 4px 8px 0.3px var(--jet-transparent) ;
-
-    
 }
 
 .bottom{
     position: fixed;
-   bottom: 0px;
+    bottom: 0px;
 }
 
 .white{

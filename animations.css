@@ -2,24 +2,33 @@
     background-image: url("./images/defaultSky.png");
 }
 
-.backgroundWireframes{
-    
-    /*change to animation between the two images that triggers when this class is applied*/
-    background-image: url("./images/WireframeSky.png");
-    animation-name: toWires;
-  animation-duration: 0.5s;
+.animationDetails{
+    animation-duration: 0.5s;
   animation-direction: alternate;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
 
-.backgroundReturnToSky{
+.backgroundToWireframes{
+    background-image: url("./images/WireframeSky.png");
+    animation-name: toWires;
+  
+}
+
+.backgroundFromWireframes{
     background-image: url("./images/defaultSky.png");
     animation-name: fromWires;
-  animation-duration: 0.5s;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
+}
+
+.backgroundToSchool{
+    background-image: url("./images/schoolColors.png");
+    animation-name: toSchool;
+  
+}
+
+.backgroundFromSchool{
+    background-image: url("./images/defaultSky.png");
+    animation-name: fromSchool;
 }
 
 @keyframes toWires {
@@ -28,6 +37,24 @@
     }
     100%{
         background-image: url("./images/WireframeSky.png");
+    }
+}
+
+@keyframes toSchool {
+    0% {
+        background-image: url("./images/defaultSky.png");
+    }
+    100%{
+        background-image: url("./images/schoolColors.png");
+    }
+}
+
+@keyframes fromSchool {
+    0% {
+        background-image: url("./images/schoolColors.png");
+    }
+    100%{
+        background-image: url("./images/defaultSky.png");
     }
 }
 

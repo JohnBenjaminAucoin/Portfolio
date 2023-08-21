@@ -1,0 +1,17 @@
+:root {
+    --jet : #2C302E;
+    --jet-transparent: #00000065 ;
+    --green: #DFF514;
+    --blue: #0079C0;
+    --white: #F0FFFF;
+    --black: #000000;
+    --row1:7vh ; 
+ --row2: 8vh;
+ --defaultBackground:"./images/defaultSky.png";
+ 
+}
+
+.logo{
+    width:100px;
+    height:auto;
+}
