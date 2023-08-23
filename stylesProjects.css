@@ -7,11 +7,12 @@
     --black: #000000;
     --row1:7vh ; 
  --row2: 8vh;
- --defaultBackground:url("./images/backgrounds/schoolColors.png");
+ --defaultBackground:url("./images/backgrounds/WireframeSky.png");
  
 }
 
-.coursesContainer{
+
+.projectsContainer{
     background-color: var(--jet-transparent);
     margin: var(--row2) 11vw;
     
@@ -26,7 +27,7 @@
 }
 
 
-.courseCard{
+.projectCard{
     color: var(--white);
     
     background-color: var(--black);
@@ -38,12 +39,6 @@
 }
 
 
-
-.cardLine1{
-    display: flex;
-    justify-content: space-between;
+.previewImgContainer{
+    text-align: center;
 }
-
-
-
-

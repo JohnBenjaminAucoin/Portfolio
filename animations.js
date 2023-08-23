@@ -1,6 +1,7 @@
 const projE = document.getElementById("projectsNav");
 const contactE = document.getElementById("contactNav");
 const coursesE = document.getElementById("coursesNav");
+const homeE = document.getElementById("homeNav");
 const bodyE = document.querySelector("body");
 
 
@@ -23,4 +24,5 @@ function hoverEffects(navE, tohover, fromhover){
 
 hoverEffects(projE, "backgroundToWireframes", "backgroundFromWireframes");
 hoverEffects(coursesE, "backgroundToSchool", "backgroundFromSchool");
+hoverEffects(homeE, "backgroundToHome", "backgroundFromHome");
 

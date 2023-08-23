@@ -1,5 +1,5 @@
 .backgroundSky{
-    background-image: url("./images/defaultSky.png");
+    background-image: var(--defaultBackground);
 }
 
 .animationDetails{
@@ -10,63 +10,93 @@
 }
 
 .backgroundToWireframes{
-    background-image: url("./images/WireframeSky.png");
+    background-image: url("./images/backgrounds/WireframeSky.png");
     animation-name: toWires;
   
 }
 
 .backgroundFromWireframes{
-    background-image: url("./images/defaultSky.png");
+    background-image: var(--defaultBackground);
     animation-name: fromWires;
 }
 
 .backgroundToSchool{
-    background-image: url("./images/schoolColors.png");
+    background-image: url("./images/backgrounds/schoolColors.png");
     animation-name: toSchool;
   
 }
 
 .backgroundFromSchool{
-    background-image: url("./images/defaultSky.png");
+    background-image: var(--defaultBackground);
     animation-name: fromSchool;
 }
 
+.backgroundToHome{
+    background-image: url("./images/backgrounds/defaultSky.png");
+    animation-name: toHome;
+  
+}
+
+.backgroundFromHome{
+    background-image: var(--defaultBackground);
+    animation-name: fromHome;
+}
+
+
 @keyframes toWires {
     0% {
-        background-image: url("./images/defaultSky.png");
+        background-image: var(--defaultBackground);
     }
     100%{
-        background-image: url("./images/WireframeSky.png");
+        background-image: url("./images/backgrounds/WireframeSky.png");
     }
 }
 
 @keyframes toSchool {
     0% {
-        background-image: url("./images/defaultSky.png");
+        background-image: var(--defaultBackground);
     }
     100%{
-        background-image: url("./images/schoolColors.png");
+        background-image: url("./images/backgrounds/schoolColors.png");
     }
 }
 
 @keyframes fromSchool {
     0% {
-        background-image: url("./images/schoolColors.png");
+        background-image: url("./images/backgrounds/schoolColors.png");
     }
     100%{
-        background-image: url("./images/defaultSky.png");
+        background-image: var(--defaultBackground);
     }
 }
 
 @keyframes fromWires {
     0% {
-        background-image: url("./images/WireframeSky.png");
+        background-image: url("./images/backgrounds/WireframeSky.png");
     }
     100%{
-        background-image: url("./images/defaultSky.png");
+        background-image: var(--defaultBackground);
     }
 }
 
+
+@keyframes toHome {
+    0% {
+        background-image: var(--defaultBackground);
+    }
+    100%{
+        background-image: url("./images/backgrounds/defaultSky.png");
+    }
+}
+
+@keyframes fromHome {
+    0% {
+        background-image: url("./images/backgrounds/defaultSky.png");
+    }
+    100%{
+        background-image: var(--defaultBackground);
+    }
+}
 
 /* SIBLING FADE BY https://codepen.io/shshaw
 

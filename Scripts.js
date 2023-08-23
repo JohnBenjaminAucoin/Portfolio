@@ -2,6 +2,7 @@ $( "#navBar" ).load( "navbar.html" );
 
 const containerE = document.querySelector(".container");
 const courseContainerE = document.querySelector(".coursesContainer")
+const projectsContainerE = document.querySelector(".projectssContainer")
 
 function addCourses(){
     console.log(courses);
@@ -51,6 +52,11 @@ function addCourses(){
         courseContainerE.appendChild(cardE);
 
     }
+
+}
+
+
+function addProjects(){
 
 }
 

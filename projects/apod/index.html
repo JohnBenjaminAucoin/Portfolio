@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="John Benjamin AuCoin">
+    <meta name="email" content="auco0023@algonquinlive.com">
+    <title>APOD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div hidden id="hdContainer" class="modal">
+        <img class="regularSize centerText" src="" alt="hd image" id="hdImg">
+
+    </div>
+
+    <h1 class="centerText">Astronomy Picture Of The Day</h1>
+
+    <form >
+        <input type="date" id = "dateInpt">
+        <button type="submit" id="search">Search</button>
+    </form>
+
+    <section id="results">
+        
+        <img src="" alt="" id="picResult"  >
+    
+        <div id="infoContainer" class="resize">
+            <h3 id="picTitle" class=""></h3>
+            <h4 id="picDate" class=""></h4>
+            <p id="explanation" class=""></p>
+            <button hidden id="favoriteBtn">Add To Favorites</button>
+        </div> 
+    </section>
+    
+    <h2 class="centerText"> Favorites</h2>
+    <section id="favorites">
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
