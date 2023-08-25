@@ -108,8 +108,10 @@ h1{
 
 body{
     background-image: url("space.jpg");
+    /*image from https://www.pexels.com/@instawally/*/
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size:cover;
     margin: 0px;
     color: white;
     background-color: rgb(19, 19, 19);
@@ -130,7 +132,7 @@ p{
     margin-right: 100px;
     display: flex;
     
-    
+
     
     justify-content: center;
     align-content: center;

@@ -2,7 +2,7 @@ $( "#navBar" ).load( "navbar.html" );
 
 const containerE = document.querySelector(".container");
 const courseContainerE = document.querySelector(".coursesContainer")
-const projectsContainerE = document.querySelector(".projectssContainer")
+const projectsContainerE = document.querySelector(".projectsContainer")
 
 function addCourses(){
     console.log(courses);
@@ -57,8 +57,54 @@ function addCourses(){
 
 
 function addProjects(){
+    for (var project of projects){
+        const cardE = document.createElement("div");
+        
+        const imgContE = document.createElement("div");
+        const imglinkE = document.createElement("a");
 
+        const imgE = document.createElement("img");
+
+        const titleE = document.createElement("h1");
+        const typeE = document.createElement("h3");
+        const descriptionE = document.createElement("p");
+
+        cardE.setAttribute("class","projectCard mainfont white");
+        imgContE.setAttribute("class","previewImgContainer");
+        imglinkE.setAttribute("target","_blank");
+        imglinkE.setAttribute("rel","noreferrer noopener");
+        
+        imglinkE.setAttribute("href",project.link);
+
+        imgE.setAttribute("src", "./images/previews/"+project.image);
+
+        titleE.innerText = project.title;
+        typeE.innerText = "Type: "+project.type;
+        descriptionE.innerText = project.description; 
+
+        imglinkE.appendChild(imgE);
+        imgContE.appendChild(imglinkE);
+
+        cardE.appendChild(imgContE);
+        cardE.appendChild(titleE);
+        cardE.appendChild(typeE);
+        cardE.appendChild(descriptionE);
+
+        projectsContainerE.appendChild(cardE);
+
+    }
 }
 
-addCourses();
+
+try{
+    addProjects();
+
+}catch (RefereceError){
+    
+}
+try{
+    addCourses();
+}catch (RefereceError){
+
+}
 

@@ -70,7 +70,7 @@ const courses = [
     "name":"CST8250 Database Design and Administration",
     "description":"A solid theoretical and practical understanding of database design and database administration is provided. The material is dealt with from the point of view of the user, the database designer and the database administrator. Topics to be covered include relational database design (e.g., data modelling, normalization, ER diagrams, integrity constraints) and database administration (e.g., user management, backups and restores, database security).",
     "prof":"David Gaudreault",
-    "grade":"TBD",
+    "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/database-design-and-administration/",
     "status":"In Progress",
@@ -82,7 +82,7 @@ const courses = [
     "name":"CST8253 Web Programming II",
     "description":"A solid theoretical and practical understanding of database design and database administration is provided. The material is dealt with from the point of view of the user, the database designer and the database administrator. Topics to be covered include relational database design (e.g., data modelling, normalization, ER diagrams, integrity constraints) and database administration (e.g., user management, backups and restores, database security).",
     "prof":"Michael Alan Eisenbraun, Sanaa Issa",
-    "grade":"TBD",
+    "grade":"3.7",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/web-programming-ii/",
     "status":"In Progress",
@@ -93,7 +93,7 @@ const courses = [
     "name":"CST8254 Network Opertating Systems",
     "description":"Students are introduced to the concepts behind implementing network operating systems in a multiple user, computer and Internet Protocol (IP) networked environment. Topics include managing and updating user accounts, access rights to files and directories, Transmission Control Protocol/Internet Protocol (TCP/IP) and TCP/IP services: Domain Name System (DNS), Hyper Text Transfer Protocol (HTTP/HTTPS) and File Transfer Protocol (FTP/SFTP). Theory and practical lab assignments are reinforced to install and configure a network operating system and the services mentioned.",
     "prof": "Jerome Mizon, Laura Hull, Daniel Chase",
-    "grade":"TBD",
+    "grade":"3.3",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/network-operating-systems/",
     "status":"In Progress",
@@ -104,7 +104,7 @@ const courses = [
     "name":"CST8318 Graphics Technologies",
     "description":"Students are introduced to graphics and illustration programs in the computer environment. Students also learn skills and production techniques which help to design effective interfaces for websites, mobile websites and mobile applications. Focus is placed on hands-on learning of software, such as Adobe Photoshop and Illustrator. Basic design concepts are covered within the context of becoming productive with the software packages.",
     "prof": "Tyler (Gordon) Bristow",
-    "grade":"TBD",
+    "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/graphics-technologies/",
     "status":"In Progress",
@@ -115,24 +115,12 @@ const courses = [
     "name":"ENL1813T Communications I",
     "description":"Communication remains an essential skill sought by employers, regardless of discipline or field of study. Using a practical, vocation-oriented approach, students develop stronger grammar and business writing skills to become effective business communicators. Through a combination of lectures, exercises, and independent learning, students practise writing, speaking, reading, listening, locating and documenting information, and using technology to communicate professionally. Students develop and strengthen communication skills that contribute to success in both educational and workplace environments.",
     "prof": "Robert Sibley, Heather Maguire",
-    "grade":"TBD",
+    "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/communications-i/",
     "status":"In Progress",
     "skills":""
 
-},
-{
-    "name":"GEP1001 Cooperative Education Readiness",
-    "description":"Students are guided through a series of activities, which prepares them for their co-op job search term. Through a detailed orientation, students learn the cooperative education program policies and procedures related to searching and securing a work term opportunity. Students identify their strengths and transferable skills and participate in workshop style sessions that focus on cover letter and resume development, interview techniques and job search strategies. Students learn how to navigate HireAC where employers post cooperative education job opportunities. Students reflect on workplace success, ethics and responsibilities.",
-    "prof": "Abla Krouma",
-    "grade":"TBD",
-    "dateStarted":"2023-08-05",
-    "link":"",
-    "status":"In Progress",
-    "skills":""
-
 }
-
 
 ]
