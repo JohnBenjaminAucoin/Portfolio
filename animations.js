@@ -28,5 +28,7 @@ function hoverEffects(navE, tohover, fromhover){
 hoverEffects(projE, "backgroundToWireframes", "backgroundFromWireframes");
 hoverEffects(coursesE, "backgroundToSchool", "backgroundFromSchool");
 hoverEffects(aboutE, "backgroundToSset", "backgroundFromSset");
+hoverEffects(contactE, "backgroundToNl", "backgroundFromNl");
 hoverEffects(homeE, "backgroundToHome", "backgroundFromHome");
+
 

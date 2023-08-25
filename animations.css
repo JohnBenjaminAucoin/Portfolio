@@ -54,6 +54,18 @@
 }
 
 
+.backgroundToNl{
+    background-image: url("./images/backgrounds/nl.png");
+    animation-name: toNl;
+  
+}
+
+.backgroundFromNl{
+    background-image: var(--defaultBackground);
+    animation-name: fromNl;
+}
+
+
 @keyframes toWires {
     0% {
         background-image: var(--defaultBackground);
@@ -127,6 +139,25 @@
         background-image: var(--defaultBackground);
     }
 }
+
+@keyframes toNl {
+    0% {
+        background-image: var(--defaultBackground);
+    }
+    100%{
+        background-image: url("./images/backgrounds/nl.png");
+    }
+}
+
+@keyframes fromNl {
+    0% {
+        background-image: url("./images/backgrounds/nl.png");
+    }
+    100%{
+        background-image: var(--defaultBackground);
+    }
+}
+
 
 /* SIBLING FADE BY https://codepen.io/shshaw
 
