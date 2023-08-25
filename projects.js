@@ -12,6 +12,14 @@ const projects = [
         "link":"https://www.figma.com/file/lTq4zhaTMKNKmZlzRU3Udc/All-parts-%2F-correct-file-structure?type=design&node-id=404%3A1180&mode=design&t=cn52X1zBfgrVEjQb-1",
         "type":"Academic",
         "image":"fabricapreview.jpg"
+    },
+    {
+        "title":"This Website!",
+        "description":"I made this website from scratch, with the exception of the unselected nav element effects (<a href='https://codepen.io/shshaw/pen/wWQeEB'>https://codepen.io/shshaw/pen/wWQeEB<a>). The backgrounds were made by me in adobe illustrator.",
+        "link":"https://johnbenjaminaucoin.github.io/Portfolio/",
+        "type":"Personal",
+        "image":"websitepreview.jpg"
+
     }
 
 ]

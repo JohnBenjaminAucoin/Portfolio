@@ -80,7 +80,7 @@ function addProjects(){
 
         titleE.innerText = project.title;
         typeE.innerText = "Type: "+project.type;
-        descriptionE.innerText = project.description; 
+        descriptionE.innerHTML = project.description; 
 
         imglinkE.appendChild(imgE);
         imgContE.appendChild(imglinkE);
