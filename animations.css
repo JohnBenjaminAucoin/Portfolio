@@ -179,5 +179,6 @@
 
 
 
-
-
+.simplehover{ transition: border-color 100s linear 100ms, border-style linear 100ms;}
+.simplehover :hover {border-color: #13dcec;
+    border-style: solid; }

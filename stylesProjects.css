@@ -23,13 +23,18 @@
     box-shadow: 0 4px 8px 0.3px var(--jet-transparent) ;
     flex-wrap: wrap;
     justify-content: center;
+
+
     
 }
 
 
 .projectCard{
     color: var(--white);
-    
+    border-color: #13dcec;
+    border-style: solid;
+    border-radius: 10px;
+
     background-color: var(--black);
     padding: 20px 20px;
     min-height: 100px;
@@ -41,8 +46,12 @@
 
 .previewImgContainer{
     text-align: center;
+
 }
 
 img{
-    width:80%;
+    width: 80%;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
 }

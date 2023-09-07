@@ -73,7 +73,7 @@ const courses = [
     "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/database-design-and-administration/",
-    "status":"In Progress",
+    "status":"Complete",
     "skills": "Skills: MySQL Workbench"
 
 },
@@ -85,7 +85,7 @@ const courses = [
     "grade":"3.7",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/web-programming-ii/",
-    "status":"In Progress",
+    "status":"Complete",
     "skills": "Skills: C#, ASPX, CSS"
 
 },
@@ -96,7 +96,7 @@ const courses = [
     "grade":"3.3",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/network-operating-systems/",
-    "status":"In Progress",
+    "status":"Complete",
     "skills": "Skills: Linux, Docker, Filezilla, WireShark"
 
 },
@@ -107,7 +107,7 @@ const courses = [
     "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/graphics-technologies/",
-    "status":"In Progress",
+    "status":"Complete",
     "skills":"Skills: Figma, Adobe Illustrator, Adobe Photoshop"
 
 },
@@ -118,9 +118,55 @@ const courses = [
     "grade":"4.0",
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/communications-i/",
-    "status":"In Progress",
+    "status":"Complete",
     "skills":""
 
-}
+},
+
+{
+    "name":"CST8256 Web Programming Languages I",
+    "description":"Emphasis is placed on ways of moving data between web pages and databases using the .NET platform: C#, ASP.NET, (as well as ASP.NET Core), Microsoft Entity (as well as Microsoft Entity Framework core) and the .NET Framework (as well as .NET Framework core). Students focus on how web applications can interact with databases through Entity Frame or other technologies. Server-side methods and the advantages of multi-tiered and MVC (Model View Controller) application architecture are explored.",
+    "prof": "Wei Gong, Ramanjeet Singh",
+    "grade":"TBD",
+    "dateStarted":"2023-09-06",
+    "link":"https://www.algonquincollege.com/online/courses/web-programming-languages-i/",
+    "status":"in progress",
+    "skills":"Skills: C#, ASP.NET, Microsoft Entity"
+
+},
+
+{
+    "name":"CST8257 Web Applications Development",
+    "description":"Students are introduced to PHP and how this technology is used to create dynamic server-side web applications. Students learn how to build database-driven Web applications using PHP. Students learn techniques to access and process data, manage state information, upload and download files, interact with the file system and manipulate pictures through the study of examples. The course concludes with a mini-project to develop a social media network with emphasis on sharing and managing picture albums.",
+    "prof": "Wei Gong, Laura Hull",
+    "grade":"TBD",
+    "dateStarted":"2023-09-06",
+    "link":"https://www.algonquincollege.com/online/courses/web-applications-development/",
+    "status":"in progress",
+    "skills":" Skills: PHP"
+
+},
+
+{
+    "name":"CST8258 Web Project Management",
+    "description":"This course introduces students to the software engineering process. System engineering, design, software quality assurance and testing are explored in detail. The course consists of lectures, case studies and practical lab group work. Project teams are provided with the opportunity to apply sound software engineering principles in the scoping and analysis of web-related projects. Students must produce appropriate documentation to support the project progression to the fourth level Project course.",
+    "prof": "Steve Bulgin",
+    "grade":"TBD",
+    "dateStarted":"2023-09-06",
+    "link":"https://www.algonquincollege.com/online/courses/web-project-management/",
+    "status":"in progress",
+    "skills":""
+},
+
+{
+    "name":"ENL8720 Technical Communication for Technicians",
+    "description":"Clear, concise and detailed communication is essential for technical workplaces. Students plan and execute a variety of formal and informal visual, oral and written communication tasks. Exercises and activities foster confidence and competence in workplace communication.",
+    "prof": "Matthew Scribner",
+    "grade":"TBD",
+    "dateStarted":"2023-09-06",
+    "link":"https://www.algonquincollege.com/online/courses/technical-communication-for-technicians/",
+    "status":"in progress",
+    "skills":""
+},
 
 ]

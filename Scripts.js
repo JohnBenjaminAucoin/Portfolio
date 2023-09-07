@@ -74,6 +74,9 @@ function addProjects(){
         imglinkE.setAttribute("target","_blank");
         imglinkE.setAttribute("rel","noreferrer noopener");
         
+        imglinkE.setAttribute("class","simplehover");
+
+
         imglinkE.setAttribute("href",project.link);
 
         imgE.setAttribute("src", "./images/previews/"+project.image);
