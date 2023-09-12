@@ -86,7 +86,7 @@ const courses = [
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/web-programming-ii/",
     "status":"Complete",
-    "skills": "Skills: C#, ASPX, CSS, Visual Studio"
+    "skills": "Skills: C#, ASP.NET, CSS, Visual Studio"
 
 },
 {
