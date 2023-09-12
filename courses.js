@@ -86,7 +86,7 @@ const courses = [
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/web-programming-ii/",
     "status":"Complete",
-    "skills": "Skills: C#, ASPX, CSS"
+    "skills": "Skills: C#, ASPX, CSS, Visual Studio"
 
 },
 {
@@ -97,7 +97,7 @@ const courses = [
     "dateStarted":"2023-08-05",
     "link":"https://www.algonquincollege.com/online/courses/network-operating-systems/",
     "status":"Complete",
-    "skills": "Skills: Linux, Docker, Filezilla, WireShark"
+    "skills": "Skills: Linux, Docker, Filezilla, WireShark, WordPress"
 
 },
 {
