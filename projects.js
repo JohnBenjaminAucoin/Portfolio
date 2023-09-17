@@ -15,10 +15,18 @@ const projects = [
     },
     {
         "title":"This Website!",
-        "description":"I made this website from scratch, with the exception of the unselected nav element effects (<a href='https://codepen.io/shshaw/pen/wWQeEB'>https://codepen.io/shshaw/pen/wWQeEB<a>). The backgrounds were made by me in adobe illustrator.",
+        "description":"I made this website from scratch, with the exception of the unselected nav element effects (<a href='https://codepen.io/shshaw/pen/wWQeEB'>https://codepen.io/shshaw/pen/wWQeEB</a>). The backgrounds were made by me in adobe illustrator.",
         "link":"https://johnbenjaminaucoin.github.io/Portfolio/",
         "type":"Personal",
         "image":"websitepreview.jpg"
+
+    },
+    {
+        "title":"JS Audio Visualizer",
+        "description":"This project was made with the help of this tutorial: <a href='https://blog.logrocket.com/audio-visualizer-from-scratch-javascript'>https://blog.logrocket.com/audio-visualizer-from-scratch-javascript/</a>. The UI was made with the help of Bootstrap.",
+        "link":"https://johnbenjaminaucoin.github.io/Portfolio/",
+        "type":"Personal",
+        "image":"jsaudiovisualizerpreview.jpg"
 
     }
 
