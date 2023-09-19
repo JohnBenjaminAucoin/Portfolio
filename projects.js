@@ -1,5 +1,13 @@
 const projects = [
-    {
+   {
+        "title":"JS Audio Visualizer",
+        "description":"This project was made with the help of this tutorial: <a href='https://blog.logrocket.com/audio-visualizer-from-scratch-javascript'>https://blog.logrocket.com/audio-visualizer-from-scratch-javascript/</a>. The UI was made with the help of Bootstrap.",
+        "link":"https://johnbenjaminaucoin.github.io/jsAudioVisualizer/",
+        "type":"Personal",
+        "image":"jsaudiovisualizerpreview.jpg"
+
+    },
+     {
         "title":"Astronomy Picture of The Day",
         "description":"A page making use of the NASA Astronomy Picture of the Day API. Stores the user's favorites in localstorage.",
         "link":"./projects/apod/index.html",
@@ -20,14 +28,7 @@ const projects = [
         "type":"Personal",
         "image":"websitepreview.jpg"
 
-    },
-    {
-        "title":"JS Audio Visualizer",
-        "description":"This project was made with the help of this tutorial: <a href='https://blog.logrocket.com/audio-visualizer-from-scratch-javascript'>https://blog.logrocket.com/audio-visualizer-from-scratch-javascript/</a>. The UI was made with the help of Bootstrap.",
-        "link":"https://johnbenjaminaucoin.github.io/jsAudioVisualizer/",
-        "type":"Personal",
-        "image":"jsaudiovisualizerpreview.jpg"
-
     }
+    
 
 ]
