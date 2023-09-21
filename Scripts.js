@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', () => {
+
 $( "#navBar" ).load( "navbar.html" );
 
 const containerE = document.querySelector(".container");
@@ -111,3 +113,4 @@ try{
 
 }
 
+});
