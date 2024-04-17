@@ -11,14 +11,7 @@
  
 }
 
-.headerwContent{
-    background-color: var(--black);
-    min-height: 65.578px;
-    width: 100%;
-    display:flex;
-    
-    justify-content: center;
-}
+
 
 .childTitle{
     flex-grow: 1;
