@@ -127,10 +127,10 @@ const courses = [
     "name":"CST8256 Web Programming Languages I",
     "description":"Emphasis is placed on ways of moving data between web pages and databases using the .NET platform: C#, ASP.NET, (as well as ASP.NET Core), Microsoft Entity (as well as Microsoft Entity Framework core) and the .NET Framework (as well as .NET Framework core). Students focus on how web applications can interact with databases through Entity Frame or other technologies. Server-side methods and the advantages of multi-tiered and MVC (Model View Controller) application architecture are explored.",
     "prof": "Wei Gong, Ramanjeet Singh",
-    "grade":"TBD",
+    "grade":"3.0",
     "dateStarted":"2023-09-06",
     "link":"https://www.algonquincollege.com/online/courses/web-programming-languages-i/",
-    "status":"in progress",
+    "status":"Complete",
     "skills":"Skills: C#, ASP.NET, Microsoft Entity"
 
 },
@@ -139,11 +139,11 @@ const courses = [
     "name":"CST8257 Web Applications Development",
     "description":"Students are introduced to PHP and how this technology is used to create dynamic server-side web applications. Students learn how to build database-driven Web applications using PHP. Students learn techniques to access and process data, manage state information, upload and download files, interact with the file system and manipulate pictures through the study of examples. The course concludes with a mini-project to develop a social media network with emphasis on sharing and managing picture albums.",
     "prof": "Wei Gong, Laura Hull",
-    "grade":"TBD",
+    "grade":"2.0",
     "dateStarted":"2023-09-06",
     "link":"https://www.algonquincollege.com/online/courses/web-applications-development/",
-    "status":"in progress",
-    "skills":" Skills: PHP"
+    "status":"Complete",
+    "skills":"Skills: PHP"
 
 },
 
@@ -151,10 +151,10 @@ const courses = [
     "name":"CST8258 Web Project Management",
     "description":"This course introduces students to the software engineering process. System engineering, design, software quality assurance and testing are explored in detail. The course consists of lectures, case studies and practical lab group work. Project teams are provided with the opportunity to apply sound software engineering principles in the scoping and analysis of web-related projects. Students must produce appropriate documentation to support the project progression to the fourth level Project course.",
     "prof": "Steve Bulgin",
-    "grade":"TBD",
+    "grade":"4.0",
     "dateStarted":"2023-09-06",
     "link":"https://www.algonquincollege.com/online/courses/web-project-management/",
-    "status":"in progress",
+    "status":"Complete",
     "skills":""
 },
 
@@ -162,11 +162,54 @@ const courses = [
     "name":"ENL8720 Technical Communication for Technicians",
     "description":"Clear, concise and detailed communication is essential for technical workplaces. Students plan and execute a variety of formal and informal visual, oral and written communication tasks. Exercises and activities foster confidence and competence in workplace communication.",
     "prof": "Matthew Scribner",
-    "grade":"TBD",
+    "grade":"3.3",
     "dateStarted":"2023-09-06",
     "link":"https://www.algonquincollege.com/online/courses/technical-communication-for-technicians/",
+    "status":"Complete",
+    "skills":""
+},
+
+{
+    "name":"CST8259 Web Programming Languages II",
+    "description":"The concepts and use of high level tools and current web programming languages used in web development, such as XML and JSON, Content Management Systems Web Services and JavaScript frameworks are addressed.",
+    "prof": "Sanaa Issa",
+    "grade":"TBD",
+    "dateStarted":"2024-09-03",
+    "link":"https://www.algonquincollege.com/online/courses/web-programming-languages-ii/",
+    "status":"in progress",
+    "skills":"Skills: XML, JSON, Javascript"
+},
+
+{
+    "name":"CST8265 Web Security Basics",
+    "description":"Students explore how to secure website and web applications. Tools and techniques for understanding basic web environment security and web application security are also explored. Common web application vulnerabilities and the mechanisms/tools to detect and prevent them are investigated. This may include such things as encryption, secure socket layers (SSL), authentication and authorization.",
+    "prof": "Mohammad Patoary",
+    "grade":"TBD",
+    "dateStarted":"2024-09-03",
+    "link":"https://www.algonquincollege.com/online/courses/web-security-basics/",
     "status":"in progress",
     "skills":""
 },
 
+{
+    "name":"CST8268 Project",
+    "description":"Students apply sound software engineering principles in the design and implementation of a major web-related project. Students work in teams under the direction of a staff advisor. The projects undertaken are conceived either internally (by the College) or externally (local industry or organizations). In the case of external projects, the industry professionals act as customers. Students must produce appropriate documentation to support the project progression. A formal project presentation to peers, faculty, staff and invited guests is required at the end of the course.",
+    "prof": "Steve Bulgin",
+    "grade":"TBD",
+    "dateStarted":"2024-09-03",
+    "link":"https://www.algonquincollege.com/online/courses/project-3/",
+    "status":"in progress",
+    "skills":""
+},
+
+{
+    "name":"CST8325 Current Trends in Web Application Development",
+    "description":"Students apply sound software engineering principles in the design and implementation of a major web-related project. Students work in teams under the direction of a staff advisor. The projects undertaken are conceived either internally (by the College) or externally (local industry or organizations). In the case of external projects, the industry professionals act as customers. Students must produce appropriate documentation to support the project progression. A formal project presentation to peers, faculty, staff and invited guests is required at the end of the course.",
+    "prof": "Jerome Mizon",
+    "grade":"TBD",
+    "dateStarted":"2024-09-03",
+    "link":"https://www.algonquincollege.com/online/courses/project-3/",
+    "status":"in progress",
+    "skills":""
+}
 ]
